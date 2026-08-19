@@ -76,7 +76,7 @@ const Operations = () => {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold text-foreground">Operaciones en Vivo</h1>
-            <p className="text-sm text-muted-foreground">Monitoreo en tiempo real · actualización cada 10s</p>
+            <p className="text-sm text-slate-700 font-medium">Monitoreo en tiempo real · actualización cada 10s</p>
           </div>
           <button
             onClick={() => queryClient.invalidateQueries()}

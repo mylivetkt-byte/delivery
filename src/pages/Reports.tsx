@@ -223,7 +223,7 @@ const Reports = () => {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold text-foreground">Reportes</h1>
-            <p className="text-sm text-muted-foreground">Informes operativos con exportación real a CSV</p>
+            <p className="text-sm text-slate-700 font-medium">Informes operativos con exportación real a CSV</p>
           </div>
           <div className="flex gap-2">
             <button onClick={exportDeliveriesCSV} className="flex items-center gap-1.5 rounded-lg bg-accent/10 px-3 py-2 text-xs font-medium text-emerald-700 hover:bg-accent/20 transition-colors">

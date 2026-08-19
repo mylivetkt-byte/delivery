@@ -226,7 +226,7 @@ const Drivers = () => {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold text-foreground">Gestión de Repartidores</h1>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-slate-700 font-medium">
               Perfiles reales, métricas y acciones de administración ({drivers.length} registrados)
               {driversError && <span className="text-destructive ml-2">Error al cargar: {(driversError as any).message}</span>}
             </p>
