@@ -89,7 +89,7 @@ export const SupportChatWidget = () => {
                 </div>
                 <div>
                   <p className="text-sm font-black leading-tight">Soporte IA</p>
-                  <p className="text-[10px] text-white/70">Asistente de Central</p>
+                  <p className="text-[10px] text-white font-bold opacity-90">Asistente de Central</p>
                 </div>
               </div>
               <button

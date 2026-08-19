@@ -158,7 +158,7 @@ const DriverLogin = () => {
               <Bike className="h-7 w-7 text-accent-foreground" />
             </div>
             <h1 className="text-2xl font-bold text-foreground">GoMoto</h1>
-            <p className="text-sm text-muted-foreground">App del Mensajero</p>
+            <p className="text-sm text-slate-900 font-bold">App del Mensajero</p>
           </div>
 
           {isForgotPassword ? (

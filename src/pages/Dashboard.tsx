@@ -105,8 +105,8 @@ const Dashboard = () => {
           <h1 className="text-2xl font-bold text-foreground">
             Panel Central{company?.name ? ` · ${company.name}` : ""}
           </h1>
-          <p className="text-sm text-muted-foreground">
-            Datos en tiempo real desde Supabase — {new Date().toLocaleDateString("es-CO", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}
+          <p className="text-sm text-slate-700 font-medium">
+            Datos en tiempo real desde Central — {new Date().toLocaleDateString("es-CO", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}
           </p>
         </div>
         
